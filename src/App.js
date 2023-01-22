@@ -1,10 +1,14 @@
-import "./App.css";
+import Header from "./components/Layout/Header";
+import Meals from "./components/Meals/Meals";
 
 function App() {
   return (
-    <div className="App">
-      <h1>This is food app</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Meals />
+      </main>
+    </>
   );
 }
 
